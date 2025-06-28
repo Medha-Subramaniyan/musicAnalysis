@@ -1,0 +1,1585 @@
+[
+  {
+    "id": "6FED8aeieEnUWwQqAO9zT1",
+    "name": "Huncho Jack, Jack Huncho",
+    "artist": "Huncho Jack",
+    "artist_id": "6extd4B6hl8VTmnlhpl2bY",
+    "release_date": "2017-12-21",
+    "total_tracks": 13,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273631973893e94d01cfcdf0e5e",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02631973893e94d01cfcdf0e5e",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851631973893e94d01cfcdf0e5e",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/6FED8aeieEnUWwQqAO9zT1",
+    "track_count": 3,
+    "total_popularity": 176,
+    "tracks": [
+      {
+        "name": "Saint",
+        "popularity": 62,
+        "duration_ms": 140792
+      },
+      {
+        "name": "Eye 2 Eye",
+        "popularity": 58,
+        "duration_ms": 190678
+      },
+      {
+        "name": "Moon Rock",
+        "popularity": 56,
+        "duration_ms": 151183
+      }
+    ]
+  },
+  {
+    "id": "7gGJ9rNtigRF53dsFo48Wp",
+    "name": "Welcome to O'Block",
+    "artist": "King Von",
+    "artist_id": "6QtgPSJPSzcnn7dPZ4VINp",
+    "release_date": "2020-10-30",
+    "total_tracks": 16,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273429d4b3d9261b9ccc24d7d36",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02429d4b3d9261b9ccc24d7d36",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851429d4b3d9261b9ccc24d7d36",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/7gGJ9rNtigRF53dsFo48Wp",
+    "track_count": 2,
+    "total_popularity": 146,
+    "tracks": [
+      {
+        "name": "Gleesh Place",
+        "popularity": 73,
+        "duration_ms": 94946
+      },
+      {
+        "name": "Back Again (feat. Lil Durk)",
+        "popularity": 73,
+        "duration_ms": 151000
+      }
+    ]
+  },
+  {
+    "id": "7zezk3hbEWlOooKBLuLJKp",
+    "name": "MegaTron 2",
+    "artist": "BabyTron",
+    "artist_id": "0sKsReKseslDlhxmbN6wLk",
+    "release_date": "2023-10-27",
+    "total_tracks": 28,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2733f87ed11b6b6d524eea013cb",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e023f87ed11b6b6d524eea013cb",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048513f87ed11b6b6d524eea013cb",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/7zezk3hbEWlOooKBLuLJKp",
+    "track_count": 2,
+    "total_popularity": 101,
+    "tracks": [
+      {
+        "name": "IRL",
+        "popularity": 49,
+        "duration_ms": 200463
+      },
+      {
+        "name": "Down, Up!",
+        "popularity": 52,
+        "duration_ms": 129123
+      }
+    ]
+  },
+  {
+    "id": "1POWgdYTzfFt9rhKlXFwsU",
+    "name": "Pink Heartz",
+    "artist": "SoFaygo",
+    "artist_id": "2SJhf6rTOU53g8yBdAjPby",
+    "release_date": "2022-11-11",
+    "total_tracks": 16,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273f5d35bf91a2b5f0009b010d4",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02f5d35bf91a2b5f0009b010d4",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851f5d35bf91a2b5f0009b010d4",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/1POWgdYTzfFt9rhKlXFwsU",
+    "track_count": 2,
+    "total_popularity": 99,
+    "tracks": [
+      {
+        "name": "Hell Yeah",
+        "popularity": 60,
+        "duration_ms": 168160
+      },
+      {
+        "name": "Blitz V2",
+        "popularity": 39,
+        "duration_ms": 221619
+      }
+    ]
+  },
+  {
+    "id": "2Q2TRdT994vTzGE3Grmmht",
+    "name": "Love Sick (Deluxe)",
+    "artist": "Don Toliver",
+    "artist_id": "4Gso3d4CscCijv0lmajZWs",
+    "release_date": "2023-02-28",
+    "total_tracks": 20,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273f5e27c2aa0b110c2b6611577",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02f5e27c2aa0b110c2b6611577",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851f5e27c2aa0b110c2b6611577",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/2Q2TRdT994vTzGE3Grmmht",
+    "track_count": 1,
+    "total_popularity": 90,
+    "tracks": [
+      {
+        "name": "No Pole",
+        "popularity": 90,
+        "duration_ms": 187613
+      }
+    ]
+  },
+  {
+    "id": "2DjfazR5N3TgXBQ7oVALA1",
+    "name": "QUAVO HUNCHO",
+    "artist": "Quavo",
+    "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
+    "release_date": "2018-10-12",
+    "total_tracks": 19,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273a1fc738279f01eb8086fc44d",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02a1fc738279f01eb8086fc44d",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851a1fc738279f01eb8086fc44d",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/2DjfazR5N3TgXBQ7oVALA1",
+    "track_count": 2,
+    "total_popularity": 85,
+    "tracks": [
+      {
+        "name": "HUNCHO DREAMS",
+        "popularity": 42,
+        "duration_ms": 211963
+      },
+      {
+        "name": "GIVE IT TO EM (feat. Saweetie)",
+        "popularity": 43,
+        "duration_ms": 182440
+      }
+    ]
+  },
+  {
+    "id": "5gHs4xLkr2g66PRNsvSh83",
+    "name": "BPL",
+    "artist": "D. Savage",
+    "artist_id": "6FqXAd1hQl7vVdIQ3hhtgc",
+    "release_date": "2021-11-12",
+    "total_tracks": 15,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273022597a224e787f5d18a0f97",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02022597a224e787f5d18a0f97",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851022597a224e787f5d18a0f97",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/5gHs4xLkr2g66PRNsvSh83",
+    "track_count": 2,
+    "total_popularity": 82,
+    "tracks": [
+      {
+        "name": "Stay Alert",
+        "popularity": 41,
+        "duration_ms": 181426
+      },
+      {
+        "name": "Bring Me Down (feat. Matt Ox & K Suave)",
+        "popularity": 41,
+        "duration_ms": 148561
+      }
+    ]
+  },
+  {
+    "id": "12GZ5ewBjyylguigbdmqJ9",
+    "name": "Yellow Tape",
+    "artist": "Key Glock",
+    "artist_id": "0RESbWvOMyua0yuyVrztJ5",
+    "release_date": "2020-01-31",
+    "total_tracks": 16,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27377d6678d66fd48ecfed2cfe8",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0277d6678d66fd48ecfed2cfe8",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485177d6678d66fd48ecfed2cfe8",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/12GZ5ewBjyylguigbdmqJ9",
+    "track_count": 1,
+    "total_popularity": 75,
+    "tracks": [
+      {
+        "name": "Dough",
+        "popularity": 75,
+        "duration_ms": 198866
+      }
+    ]
+  },
+  {
+    "id": "3C3t2bKhwEL3wdKioqWUDh",
+    "name": "TIMELESS",
+    "artist": "KAYTRANADA",
+    "artist_id": "6qgnBH6iDM91ipVXv28OMu",
+    "release_date": "2024-06-07",
+    "total_tracks": 21,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2733d1996a2dc962e53e12cb7cb",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e023d1996a2dc962e53e12cb7cb",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048513d1996a2dc962e53e12cb7cb",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/3C3t2bKhwEL3wdKioqWUDh",
+    "track_count": 1,
+    "total_popularity": 73,
+    "tracks": [
+      {
+        "name": "Witchy (feat. Childish Gambino)",
+        "popularity": 73,
+        "duration_ms": 227000
+      }
+    ]
+  },
+  {
+    "id": "3LByoNjO4gbuX5D0u26LDY",
+    "name": "X (Expanded Edition)",
+    "artist": "Chris Brown",
+    "artist_id": "7bXgB6jMjp9ATFy66eO08Z",
+    "release_date": "2014-09-16",
+    "total_tracks": 22,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273d7a62d8635f92472d57d5f8d",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02d7a62d8635f92472d57d5f8d",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851d7a62d8635f92472d57d5f8d",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/3LByoNjO4gbuX5D0u26LDY",
+    "track_count": 1,
+    "total_popularity": 72,
+    "tracks": [
+      {
+        "name": "Don't Think They Know (feat. Aaliyah)",
+        "popularity": 72,
+        "duration_ms": 237986
+      }
+    ]
+  },
+  {
+    "id": "0fUy6IdLHDpGNwavIlhEsl",
+    "name": "DS2 (Deluxe)",
+    "artist": "Future",
+    "artist_id": "1RyvyyTE3xzB2ZywiAwp0i",
+    "release_date": "2015-07-17",
+    "total_tracks": 19,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273b2592bea12d840fd096ef965",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02b2592bea12d840fd096ef965",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851b2592bea12d840fd096ef965",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/0fUy6IdLHDpGNwavIlhEsl",
+    "track_count": 1,
+    "total_popularity": 67,
+    "tracks": [
+      {
+        "name": "Stick Talk",
+        "popularity": 67,
+        "duration_ms": 171333
+      }
+    ]
+  },
+  {
+    "id": "1ZCsPUZ7j9dTqjhU2I36tw",
+    "name": "The Last Slimeto",
+    "artist": "YoungBoy Never Broke Again",
+    "artist_id": "7wlFDEWiM5OoIAt8RSli8b",
+    "release_date": "2022-08-05",
+    "total_tracks": 30,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2738040b02e84bbe74b846286e8",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e028040b02e84bbe74b846286e8",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048518040b02e84bbe74b846286e8",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/1ZCsPUZ7j9dTqjhU2I36tw",
+    "track_count": 1,
+    "total_popularity": 67,
+    "tracks": [
+      {
+        "name": "Vette Motors",
+        "popularity": 67,
+        "duration_ms": 173419
+      }
+    ]
+  },
+  {
+    "id": "6tE9Dnp2zInFij4jKssysL",
+    "name": "I NEVER LIKED YOU",
+    "artist": "Future",
+    "artist_id": "1RyvyyTE3xzB2ZywiAwp0i",
+    "release_date": "2022-04-29",
+    "total_tracks": 16,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27386badd635b69aea887862214",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0286badd635b69aea887862214",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485186badd635b69aea887862214",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/6tE9Dnp2zInFij4jKssysL",
+    "track_count": 1,
+    "total_popularity": 67,
+    "tracks": [
+      {
+        "name": "MASSAGING ME",
+        "popularity": 67,
+        "duration_ms": 106133
+      }
+    ]
+  },
+  {
+    "id": "1F1JJHhqMo5DETJkesqGpG",
+    "name": "Herstory in the Making",
+    "artist": "Young M.A",
+    "artist_id": "7LvoDJUNGnOrPdGRzVtOJ9",
+    "release_date": "2019-09-27",
+    "total_tracks": 21,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2734fc7642b4b9dfc5088c45880",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e024fc7642b4b9dfc5088c45880",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048514fc7642b4b9dfc5088c45880",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/1F1JJHhqMo5DETJkesqGpG",
+    "track_count": 1,
+    "total_popularity": 66,
+    "tracks": [
+      {
+        "name": "BIG",
+        "popularity": 66,
+        "duration_ms": 225919
+      }
+    ]
+  },
+  {
+    "id": "7lrsfwcRiLCeWFM3u38DzB",
+    "name": "Only Way Is Up (Deluxe)",
+    "artist": "K CAMP",
+    "artist_id": "5bgfj5zUoWpyeVatGDjn6H",
+    "release_date": "2014-09-04",
+    "total_tracks": 16,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27357be04ddc4e9f466b5c16fd9",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0257be04ddc4e9f466b5c16fd9",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485157be04ddc4e9f466b5c16fd9",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/7lrsfwcRiLCeWFM3u38DzB",
+    "track_count": 1,
+    "total_popularity": 65,
+    "tracks": [
+      {
+        "name": "Comfortable",
+        "popularity": 65,
+        "duration_ms": 211573
+      }
+    ]
+  },
+  {
+    "id": "3pKTKC0AAe3yTcXQLzvpSW",
+    "name": "Trigga Reloaded",
+    "artist": "Trey Songz",
+    "artist_id": "2iojnBLj0qIMiKPvVhLnsH",
+    "release_date": "2015-06-23",
+    "total_tracks": 18,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273e04293bed7a0440e3eea2de1",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02e04293bed7a0440e3eea2de1",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851e04293bed7a0440e3eea2de1",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/3pKTKC0AAe3yTcXQLzvpSW",
+    "track_count": 1,
+    "total_popularity": 64,
+    "tracks": [
+      {
+        "name": "Touchin, Lovin (feat. Nicki Minaj)",
+        "popularity": 64,
+        "duration_ms": 221971
+      }
+    ]
+  },
+  {
+    "id": "6MbQdX6OomgQhZU6QCqMKW",
+    "name": "Top",
+    "artist": "YoungBoy Never Broke Again",
+    "artist_id": "7wlFDEWiM5OoIAt8RSli8b",
+    "release_date": "2020-09-11",
+    "total_tracks": 21,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2738bd6e34012a7ab6311050d0c",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e028bd6e34012a7ab6311050d0c",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048518bd6e34012a7ab6311050d0c",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/6MbQdX6OomgQhZU6QCqMKW",
+    "track_count": 1,
+    "total_popularity": 63,
+    "tracks": [
+      {
+        "name": "Murder Business",
+        "popularity": 63,
+        "duration_ms": 132771
+      }
+    ]
+  },
+  {
+    "id": "0x7LXb3Q4tEsI6iXcZgnOO",
+    "name": "FREEDDAWG",
+    "artist": "YoungBoy Never Broke Again",
+    "artist_id": "7wlFDEWiM5OoIAt8RSli8b",
+    "release_date": "2019-06-03",
+    "total_tracks": 1,
+    "album_type": "single",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273c8c26a52d46c5db86759a191",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02c8c26a52d46c5db86759a191",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851c8c26a52d46c5db86759a191",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/0x7LXb3Q4tEsI6iXcZgnOO",
+    "track_count": 1,
+    "total_popularity": 63,
+    "tracks": [
+      {
+        "name": "FREEDDAWG",
+        "popularity": 63,
+        "duration_ms": 111882
+      }
+    ]
+  },
+  {
+    "id": "5bVIz2j5nOioetMjM0T4F9",
+    "name": "bigger thën everything",
+    "artist": "Yeat",
+    "artist_id": "3qiHUAX7zY4Qnjx8TNUzVx",
+    "release_date": "2023-08-10",
+    "total_tracks": 1,
+    "album_type": "single",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273c1e206f60c3eda32be41c043",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02c1e206f60c3eda32be41c043",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851c1e206f60c3eda32be41c043",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/5bVIz2j5nOioetMjM0T4F9",
+    "track_count": 1,
+    "total_popularity": 62,
+    "tracks": [
+      {
+        "name": "bigger thën everything",
+        "popularity": 62,
+        "duration_ms": 218264
+      }
+    ]
+  },
+  {
+    "id": "6iTOKqu4Vl8q7oPzusfOB8",
+    "name": "President (feat. Ken Carson)",
+    "artist": "Southside",
+    "artist_id": "23DYJsw4uSCguIqiTIDtcN",
+    "release_date": "2024-04-26",
+    "total_tracks": 1,
+    "album_type": "single",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273c2c37d87b39aa43263e34d9f",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02c2c37d87b39aa43263e34d9f",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851c2c37d87b39aa43263e34d9f",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/6iTOKqu4Vl8q7oPzusfOB8",
+    "track_count": 1,
+    "total_popularity": 61,
+    "tracks": [
+      {
+        "name": "President (feat. Ken Carson)",
+        "popularity": 61,
+        "duration_ms": 187496
+      }
+    ]
+  },
+  {
+    "id": "0cg0JTyl731GnvVS1MyYjj",
+    "name": "Truffle Butter",
+    "artist": "Nicki Minaj",
+    "artist_id": "0hCNtLu0JehylgoiP8L4Gh",
+    "release_date": "2015-01-23",
+    "total_tracks": 1,
+    "album_type": "single",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273fa8ef63d8bf819b3463528e9",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02fa8ef63d8bf819b3463528e9",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851fa8ef63d8bf819b3463528e9",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/0cg0JTyl731GnvVS1MyYjj",
+    "track_count": 1,
+    "total_popularity": 60,
+    "tracks": [
+      {
+        "name": "Truffle Butter",
+        "popularity": 60,
+        "duration_ms": 219226
+      }
+    ]
+  },
+  {
+    "id": "4cGY0jqWYTCIPwQRXHgKvy",
+    "name": "COLORWAY",
+    "artist": "DESTIN CONRAD",
+    "artist_id": "4jwROPSUkTkohLCRiyjiZZ",
+    "release_date": "2021-03-05",
+    "total_tracks": 9,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273c5626e40ff7ec9f2a9405bf3",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02c5626e40ff7ec9f2a9405bf3",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851c5626e40ff7ec9f2a9405bf3",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/4cGY0jqWYTCIPwQRXHgKvy",
+    "track_count": 1,
+    "total_popularity": 60,
+    "tracks": [
+      {
+        "name": "IN THE AIR",
+        "popularity": 60,
+        "duration_ms": 136695
+      }
+    ]
+  },
+  {
+    "id": "2ICdqEf91Kc9FwdlLtB748",
+    "name": "About Time",
+    "artist": "Sabrina Claudio",
+    "artist_id": "30DhU7BDmF4PH0JVhu8ZRg",
+    "release_date": "2017-10-05",
+    "total_tracks": 12,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27376165991d7aeecce3634f554",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0276165991d7aeecce3634f554",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485176165991d7aeecce3634f554",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/2ICdqEf91Kc9FwdlLtB748",
+    "track_count": 1,
+    "total_popularity": 59,
+    "tracks": [
+      {
+        "name": "Belong to You (feat. 6LACK)",
+        "popularity": 59,
+        "duration_ms": 185617
+      }
+    ]
+  },
+  {
+    "id": "0FYvMdfTfYJxnJnKs1wDb0",
+    "name": "It's Only Me",
+    "artist": "Lil Baby",
+    "artist_id": "5f7VJjfbwm532GiveGC0ZK",
+    "release_date": "2022-10-14",
+    "total_tracks": 23,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27366b04b41fa6f8908dce86695",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0266b04b41fa6f8908dce86695",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485166b04b41fa6f8908dce86695",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/0FYvMdfTfYJxnJnKs1wDb0",
+    "track_count": 1,
+    "total_popularity": 57,
+    "tracks": [
+      {
+        "name": "FR",
+        "popularity": 57,
+        "duration_ms": 175133
+      }
+    ]
+  },
+  {
+    "id": "4aZJVVmmt9lfD5qniSL8qf",
+    "name": "Nobody Move (feat. King Von)",
+    "artist": "Muwop",
+    "artist_id": "71XUEbOYbsPpEIDgbNlqaw",
+    "release_date": "2021-04-02",
+    "total_tracks": 1,
+    "album_type": "single",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27342485434b8e807c0a24b635a",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0242485434b8e807c0a24b635a",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485142485434b8e807c0a24b635a",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/4aZJVVmmt9lfD5qniSL8qf",
+    "track_count": 1,
+    "total_popularity": 56,
+    "tracks": [
+      {
+        "name": "Nobody Move (feat. King Von)",
+        "popularity": 56,
+        "duration_ms": 106919
+      }
+    ]
+  },
+  {
+    "id": "69g3CtOVg98TPOwqmI2K7Q",
+    "name": "Ego Death",
+    "artist": "The Internet",
+    "artist_id": "7GN9PivdemQRKjDt4z5Zv8",
+    "release_date": "2015-06-26",
+    "total_tracks": 12,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2731c1c33c63cdbcb5788975a93",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e021c1c33c63cdbcb5788975a93",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048511c1c33c63cdbcb5788975a93",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/69g3CtOVg98TPOwqmI2K7Q",
+    "track_count": 1,
+    "total_popularity": 56,
+    "tracks": [
+      {
+        "name": "Get Away",
+        "popularity": 56,
+        "duration_ms": 148706
+      }
+    ]
+  },
+  {
+    "id": "6mIpyaTHgDgQbgZwWALgHI",
+    "name": "MMM HMM (feat. Sexyy Red)",
+    "artist": "Lancey Foux",
+    "artist_id": "2LakckgvXEtJlKOYP6BO11",
+    "release_date": "2023-07-21",
+    "total_tracks": 1,
+    "album_type": "single",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273abb4a8b8f17edf4f57c6a2f1",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02abb4a8b8f17edf4f57c6a2f1",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851abb4a8b8f17edf4f57c6a2f1",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/6mIpyaTHgDgQbgZwWALgHI",
+    "track_count": 1,
+    "total_popularity": 53,
+    "tracks": [
+      {
+        "name": "MMM HMM (feat. Sexyy Red)",
+        "popularity": 53,
+        "duration_ms": 158137
+      }
+    ]
+  },
+  {
+    "id": "1WELnoLbD0VAAg1HvI3VbC",
+    "name": "Michigan Boy Boat",
+    "artist": "Lil Yachty",
+    "artist_id": "6icQOAFXDZKsumw3YXyusw",
+    "release_date": "2021-04-23",
+    "total_tracks": 14,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273ce747f352b4b912c229fd84f",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02ce747f352b4b912c229fd84f",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851ce747f352b4b912c229fd84f",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/1WELnoLbD0VAAg1HvI3VbC",
+    "track_count": 1,
+    "total_popularity": 52,
+    "tracks": [
+      {
+        "name": "Hybrid (feat. Baby Tron)",
+        "popularity": 52,
+        "duration_ms": 172800
+      }
+    ]
+  },
+  {
+    "id": "6mhlquPOu46v4c7nXS35mX",
+    "name": "Still Flexin, Still Steppin",
+    "artist": "YoungBoy Never Broke Again",
+    "artist_id": "7wlFDEWiM5OoIAt8RSli8b",
+    "release_date": "2020-02-21",
+    "total_tracks": 14,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2734a334652028d6ab93ed8346b",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e024a334652028d6ab93ed8346b",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048514a334652028d6ab93ed8346b",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/6mhlquPOu46v4c7nXS35mX",
+    "track_count": 1,
+    "total_popularity": 52,
+    "tracks": [
+      {
+        "name": "RIP Lil Phat",
+        "popularity": 52,
+        "duration_ms": 146802
+      }
+    ]
+  },
+  {
+    "id": "265RSKLOdNH1q2ts0ta2bg",
+    "name": "Misunderstood",
+    "artist": "JayDaYoungan",
+    "artist_id": "0E3pLs4jXz9tDQGY8m1A1d",
+    "release_date": "2019-10-11",
+    "total_tracks": 19,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2733b5b32620d35fe0725d59371",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e023b5b32620d35fe0725d59371",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048513b5b32620d35fe0725d59371",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/265RSKLOdNH1q2ts0ta2bg",
+    "track_count": 1,
+    "total_popularity": 51,
+    "tracks": [
+      {
+        "name": "Flash Out",
+        "popularity": 51,
+        "duration_ms": 122179
+      }
+    ]
+  },
+  {
+    "id": "3duEXG68pXzlRmbeL5PYRD",
+    "name": "BANA",
+    "artist": "tana",
+    "artist_id": "1xgl9yxqIVq8PEEMai38uV",
+    "release_date": "2024-04-26",
+    "total_tracks": 14,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2737ddce5abcd2205f400d41e78",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e027ddce5abcd2205f400d41e78",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048517ddce5abcd2205f400d41e78",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/3duEXG68pXzlRmbeL5PYRD",
+    "track_count": 1,
+    "total_popularity": 50,
+    "tracks": [
+      {
+        "name": "Never Sober",
+        "popularity": 50,
+        "duration_ms": 149545
+      }
+    ]
+  },
+  {
+    "id": "6rf8l7Cz6blLk79wWPX0Uv",
+    "name": "Cold Toronto",
+    "artist": "Che Ecru",
+    "artist_id": "45AMD9qU0ERQY5RvR7deHR",
+    "release_date": "2022-12-09",
+    "total_tracks": 14,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273e655007635662e5c7d74582d",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02e655007635662e5c7d74582d",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851e655007635662e5c7d74582d",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/6rf8l7Cz6blLk79wWPX0Uv",
+    "track_count": 1,
+    "total_popularity": 48,
+    "tracks": [
+      {
+        "name": "Lovin",
+        "popularity": 48,
+        "duration_ms": 64000
+      }
+    ]
+  },
+  {
+    "id": "1gDwjnGfTH7BSqtc4y7AiL",
+    "name": "3800 Degrees",
+    "artist": "YoungBoy Never Broke Again",
+    "artist_id": "7wlFDEWiM5OoIAt8RSli8b",
+    "release_date": "2022-10-07",
+    "total_tracks": 13,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273b0f42f937c3179f0fa5d9b3a",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02b0f42f937c3179f0fa5d9b3a",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851b0f42f937c3179f0fa5d9b3a",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/1gDwjnGfTH7BSqtc4y7AiL",
+    "track_count": 1,
+    "total_popularity": 48,
+    "tracks": [
+      {
+        "name": "Won’t Step On Me",
+        "popularity": 48,
+        "duration_ms": 216750
+      }
+    ]
+  },
+  {
+    "id": "02alvopUhHLiySIOSnL5HJ",
+    "name": "Lost All My Feelings",
+    "artist": "SahBabii",
+    "artist_id": "7GuUYiGZOzQwq4L6gAfy1T",
+    "release_date": "2023-05-16",
+    "total_tracks": 1,
+    "album_type": "single",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2739b1693fb4cefde59506c3376",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e029b1693fb4cefde59506c3376",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048519b1693fb4cefde59506c3376",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/02alvopUhHLiySIOSnL5HJ",
+    "track_count": 1,
+    "total_popularity": 48,
+    "tracks": [
+      {
+        "name": "Lost All My Feelings",
+        "popularity": 48,
+        "duration_ms": 164571
+      }
+    ]
+  },
+  {
+    "id": "4ywlL5XZxSfTVAi66PiShY",
+    "name": "Slimeball",
+    "artist": "Young Nudy",
+    "artist_id": "5yPzzu25VzEk8qrGTLIrE1",
+    "release_date": "2016-10-02",
+    "total_tracks": 14,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273781b1a0ed5d8ff7eaf3c0432",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02781b1a0ed5d8ff7eaf3c0432",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851781b1a0ed5d8ff7eaf3c0432",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/4ywlL5XZxSfTVAi66PiShY",
+    "track_count": 1,
+    "total_popularity": 44,
+    "tracks": [
+      {
+        "name": "Rough Life",
+        "popularity": 44,
+        "duration_ms": 208186
+      }
+    ]
+  },
+  {
+    "id": "6vlzHLRHhhQWKhIsxsbH5P",
+    "name": "Lost Files 4",
+    "artist": "jahhde",
+    "artist_id": "3iwgpA6jf4fXM5ZuH7qglb",
+    "release_date": "2023-01-01",
+    "total_tracks": 8,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27322d3e773f312edf31efef831",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0222d3e773f312edf31efef831",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485122d3e773f312edf31efef831",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/6vlzHLRHhhQWKhIsxsbH5P",
+    "track_count": 1,
+    "total_popularity": 40,
+    "tracks": [
+      {
+        "name": "Free Young Thug",
+        "popularity": 40,
+        "duration_ms": 149616
+      }
+    ]
+  },
+  {
+    "id": "2vBwhUcdiA7A7zlzX1tboq",
+    "name": "Hump",
+    "artist": "GE3Z",
+    "artist_id": "0BgRotGO2vUPyxguQlXsR7",
+    "release_date": "2023-08-16",
+    "total_tracks": 1,
+    "album_type": "single",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2732437cd3c636d4178fbe5c2d5",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e022437cd3c636d4178fbe5c2d5",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048512437cd3c636d4178fbe5c2d5",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/2vBwhUcdiA7A7zlzX1tboq",
+    "track_count": 1,
+    "total_popularity": 28,
+    "tracks": [
+      {
+        "name": "Hump",
+        "popularity": 28,
+        "duration_ms": 115463
+      }
+    ]
+  },
+  {
+    "id": "6cem5FhdCrnf100r2IweI0",
+    "name": "1 Night I Took Acid",
+    "artist": "BIGBABYGUCCI",
+    "artist_id": "1ra8ujbJcZrV5aUjcfzFKs",
+    "release_date": "2021-05-14",
+    "total_tracks": 12,
+    "album_type": "album",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273101eaf5954d00ac56cc4bc01",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02101eaf5954d00ac56cc4bc01",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851101eaf5954d00ac56cc4bc01",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/6cem5FhdCrnf100r2IweI0",
+    "track_count": 1,
+    "total_popularity": 16,
+    "tracks": [
+      {
+        "name": "Waste Your Time",
+        "popularity": 16,
+        "duration_ms": 78297
+      }
+    ]
+  },
+  {
+    "id": "1NKgDOTffsHRGfllRRLsis",
+    "name": "Black & Tan",
+    "artist": "YT",
+    "artist_id": "0YsYhESxyHC1kuMm9Mbm3C",
+    "release_date": "2024-06-19",
+    "total_tracks": 1,
+    "album_type": "single",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2730c8d2bc234b9396145c54597",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e020c8d2bc234b9396145c54597",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048510c8d2bc234b9396145c54597",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/1NKgDOTffsHRGfllRRLsis",
+    "track_count": 1,
+    "total_popularity": 5,
+    "tracks": [
+      {
+        "name": "Black & Tan",
+        "popularity": 5,
+        "duration_ms": 138260
+      }
+    ]
+  },
+  {
+    "id": "0xaHnIBhCSndjH8YeZekrY",
+    "name": "Family Freestyle",
+    "artist": "Lil Dann",
+    "artist_id": "2mMBXm6qrEJuqdg3HnILr2",
+    "release_date": "2023-09-03",
+    "total_tracks": 1,
+    "album_type": "single",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27371c660ce3cd3ad2198a59473",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0271c660ce3cd3ad2198a59473",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485171c660ce3cd3ad2198a59473",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/0xaHnIBhCSndjH8YeZekrY",
+    "track_count": 1,
+    "total_popularity": 0,
+    "tracks": [
+      {
+        "name": "Family Freestyle",
+        "popularity": 0,
+        "duration_ms": 215933
+      }
+    ]
+  },
+  {
+    "id": "544MNbPdIO5UlT3lBuheML",
+    "name": "Leavem Stuck",
+    "artist": "BankRoll",
+    "artist_id": "6zHD2MTJzzyHzhys9lbT37",
+    "release_date": "2023-03-28",
+    "total_tracks": 1,
+    "album_type": "single",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27367efb7ec010aaa0c908ab294",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0267efb7ec010aaa0c908ab294",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485167efb7ec010aaa0c908ab294",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/544MNbPdIO5UlT3lBuheML",
+    "track_count": 1,
+    "total_popularity": 0,
+    "tracks": [
+      {
+        "name": "Leavem Stuck",
+        "popularity": 0,
+        "duration_ms": 131982
+      }
+    ]
+  },
+  {
+    "id": "7qSxPZiS8uO3QTELEUvFKB",
+    "name": "WHITE CROCS (with Ryan Trey)",
+    "artist": "Jordan Ward",
+    "artist_id": "3DGlTwdM5Dim9XQipb3jMf",
+    "release_date": "2023-01-24",
+    "total_tracks": 1,
+    "album_type": "single",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273d5aaab3d01be71ee5b3d7469",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02d5aaab3d01be71ee5b3d7469",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851d5aaab3d01be71ee5b3d7469",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/7qSxPZiS8uO3QTELEUvFKB",
+    "track_count": 1,
+    "total_popularity": 0,
+    "tracks": [
+      {
+        "name": "WHITE CROCS (with Ryan Trey)",
+        "popularity": 0,
+        "duration_ms": 147773
+      }
+    ]
+  },
+  {
+    "id": "46AM6p129FD3YU7zm5hAFB",
+    "name": "A Minute",
+    "artist": "vjac0b",
+    "artist_id": "2dSAZN7PmMiI5UCTJUALer",
+    "release_date": "2022-04-01",
+    "total_tracks": 1,
+    "album_type": "single",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2739a83ad2e8f0ab685678d4550",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e029a83ad2e8f0ab685678d4550",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048519a83ad2e8f0ab685678d4550",
+        "width": 64
+      }
+    ],
+    "external_url": "https://open.spotify.com/album/46AM6p129FD3YU7zm5hAFB",
+    "track_count": 1,
+    "total_popularity": 0,
+    "tracks": [
+      {
+        "name": "A Minute",
+        "popularity": 0,
+        "duration_ms": 158805
+      }
+    ]
+  }
+]

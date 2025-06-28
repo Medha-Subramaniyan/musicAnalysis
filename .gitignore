@@ -1,0 +1,4 @@
+# Public directory
+public/ 
+.env
+.cache
