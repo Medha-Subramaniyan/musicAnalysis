@@ -1,4 +1,54 @@
-# Public directory
-public/ 
+# Ignore album images and backups
+public/albums/
+public/albums_backup/
+
+# Ignore large image files (album covers, etc.)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.webp
+
+# But allow small images like icons (under 100KB)
+!public/vinyl-icon.svg
+!public/*.ico
+!public/favicon.*
+
+# Ignore audio and video files
+*.mp3
+*.wav
+*.ogg
+*.flac
+*.aac
+*.m4a
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# Ignore large data files
+*.csv
+*.tsv
+*.jsonl
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Ignore node_modules and build output
+node_modules/
+dist/
+build/
+
+# Ignore environment files
 .env
 .cache
+
+# Ignore OS and editor files
+.DS_Store
+Thumbs.db
+*.log
