@@ -2,7 +2,7 @@ import React, { useMemo, useEffect, useState } from "react";
 import albumData from "../../data/ROOM_playlist_album_image_mapping_with_metadata_fixed.json";
 
 const CLIENT_ID = '2431fa0ab44c44c9bd519c9178055f5d';
-const REDIRECT_URI = 'http://localhost:3000/callback';
+const REDIRECT_URI = 'http://127.0.0.1:8888/spotify-analytics/callback';
 const SCOPES = [
   'playlist-modify-private',
   'playlist-modify-public',
@@ -127,7 +127,7 @@ export default function CuratedPlaylist({ selectedGenres, selectedMoods, onBack 
 
   // Callback handler for /callback route
   useEffect(() => {
-    if (window.location.pathname === '/callback') {
+    if (window.location.pathname === '/spotify-analytics/callback') {
       const hash = window.location.hash;
       if (hash) {
         const params = new URLSearchParams(hash.replace('#', ''));
@@ -135,7 +135,7 @@ export default function CuratedPlaylist({ selectedGenres, selectedMoods, onBack 
         if (accessToken) {
           localStorage.setItem('spotify_access_token', accessToken);
           setIsAuthenticated(true);
-          window.location.href = '/'; // Redirect to main app
+          window.location.href = '/spotify-analytics/'; // Redirect to main app
         }
       }
     }
