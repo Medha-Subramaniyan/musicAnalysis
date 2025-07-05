@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import LandingAndSelector from './components/LandingAndSelector';
 import CuratedPlaylist from './components/CuratedPlaylist';
+import SpotifyCallback from './components/SpotifyCallback';
 
 function App() {
   const [step, setStep] = useState("landing");
@@ -17,10 +19,20 @@ function App() {
     setStep("landing");
   };
 
-  return step === "landing" ? (
-    <LandingAndSelector onCurate={handleCurate} />
-  ) : (
-    <CuratedPlaylist selectedGenres={genres} selectedMoods={moods} onBack={handleBack} />
+  return (
+    <Router basename="/spotify-analytics">
+      <Routes>
+        <Route path="/callback" element={<SpotifyCallback />} />
+        <Route path="/" element={
+          step === "landing" ? (
+            <LandingAndSelector onCurate={handleCurate} />
+          ) : (
+            <CuratedPlaylist selectedGenres={genres} selectedMoods={moods} onBack={handleBack} />
+          )
+        } />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+    </Router>
   );
 }
 

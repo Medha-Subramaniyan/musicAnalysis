@@ -2,13 +2,34 @@ import React, { useMemo, useEffect, useState } from "react";
 import albumData from "../../data/ROOM_playlist_album_image_mapping_with_metadata_fixed.json";
 
 const CLIENT_ID = '2431fa0ab44c44c9bd519c9178055f5d';
-const REDIRECT_URI = 'http://localhost:3000/callback';
+const REDIRECT_URI = 'http://127.0.0.1:8888/spotify-analytics/callback';
 const SCOPES = [
   'playlist-modify-private',
   'playlist-modify-public',
   'user-read-private',
-  'user-read-email'
+  'user-read-email',
+  'user-library-read'
 ];
+
+// PKCE helper functions
+function generateRandomString(length) {
+  const possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+  const values = crypto.getRandomValues(new Uint8Array(length));
+  return values.reduce((acc, x) => acc + possible[x % possible.length], "");
+}
+
+async function sha256(plain) {
+  const encoder = new TextEncoder();
+  const data = encoder.encode(plain);
+  return window.crypto.subtle.digest('SHA-256', data);
+}
+
+function base64encode(input) {
+  return btoa(String.fromCharCode(...new Uint8Array(input)))
+    .replace(/=/g, '')
+    .replace(/\+/g, '-')
+    .replace(/\//g, '_');
+}
 
 export default function CuratedPlaylist({ selectedGenres, selectedMoods, onBack }) {
   // Filter albums by selected genres/moods with fallback strategy
@@ -124,26 +145,35 @@ export default function CuratedPlaylist({ selectedGenres, selectedMoods, onBack 
   }, [selectedGenres, selectedMoods]);
 
   const [isAuthenticated, setIsAuthenticated] = useState(!!localStorage.getItem('spotify_access_token'));
+  const [isCreatingPlaylist, setIsCreatingPlaylist] = useState(false);
 
-  // Callback handler for /callback route
+  // Check authentication status when component mounts
   useEffect(() => {
-    if (window.location.pathname === '/callback') {
-      const hash = window.location.hash;
-      if (hash) {
-        const params = new URLSearchParams(hash.replace('#', ''));
-        const accessToken = params.get('access_token');
-        if (accessToken) {
-          localStorage.setItem('spotify_access_token', accessToken);
-          setIsAuthenticated(true);
-          window.location.href = '/'; // Redirect to main app
-        }
-      }
-    }
+    const token = localStorage.getItem('spotify_access_token');
+    setIsAuthenticated(!!token);
   }, []);
 
-  const loginWithSpotify = () => {
-    const authUrl = `https://accounts.spotify.com/authorize?client_id=${CLIENT_ID}&response_type=token&redirect_uri=${encodeURIComponent(REDIRECT_URI)}&scope=${encodeURIComponent(SCOPES.join(' '))}`;
-    window.location.href = authUrl;
+  const loginWithSpotify = async () => {
+    try {
+      // Generate PKCE parameters
+      const codeVerifier = generateRandomString(64);
+      const hashed = await sha256(codeVerifier);
+      const codeChallenge = base64encode(hashed);
+      
+      // Store code verifier for later use
+      localStorage.setItem('spotify_code_verifier', codeVerifier);
+      
+      const authUrl = `https://accounts.spotify.com/authorize?client_id=${CLIENT_ID}&response_type=code&redirect_uri=${encodeURIComponent(REDIRECT_URI)}&scope=${encodeURIComponent(SCOPES.join(' '))}&code_challenge_method=S256&code_challenge=${codeChallenge}&show_dialog=true`;
+      
+      console.log('Redirect URI being used:', REDIRECT_URI);
+      console.log('Full auth URL:', authUrl);
+      console.log('Code verifier stored for PKCE');
+      
+      window.location.href = authUrl;
+    } catch (error) {
+      console.error('Error generating PKCE parameters:', error);
+      alert('Error starting authentication. Please try again.');
+    }
   };
 
   // Handler to create playlist on Spotify
@@ -151,28 +181,123 @@ export default function CuratedPlaylist({ selectedGenres, selectedMoods, onBack 
     const accessToken = localStorage.getItem('spotify_access_token');
     if (!accessToken) {
       alert('Please log in with Spotify first!');
-      // Optionally, redirect to your Spotify login flow here
       return;
     }
 
-    const playlistName = "My Curated Soundscape";
-    const trackUris = playlist
-      .map(track => track.albumSpotify)
-      .filter(Boolean)
-      .map(url => {
-        const match = url.match(/spotify.com\/(track|album)\/([a-zA-Z0-9]+)/);
-        return match ? `spotify:${match[1]}:${match[2]}` : null;
-      })
-      .filter(Boolean);
-
+    const playlistName = "Curated Soundscape";
+    
     try {
+      setIsCreatingPlaylist(true);
+      console.log('Starting playlist creation with', playlist.length, 'tracks');
+      
       // 1. Get user ID
       const userRes = await fetch('https://api.spotify.com/v1/me', {
         headers: { Authorization: `Bearer ${accessToken}` }
       });
+      
+      if (!userRes.ok) {
+        throw new Error('Failed to get user info');
+      }
+      
       const userData = await userRes.json();
+      console.log('User data retrieved:', userData.display_name);
 
-      // 2. Create playlist
+      // 2. Search for tracks and get their URIs
+      const searchPromises = playlist.map(async (track, index) => {
+        try {
+          console.log(`Processing track ${index + 1}/${playlist.length}: ${track.name} by ${track.albumArtist} from ${track.albumName}`);
+          
+          // First, try to get the track directly from the specific album
+          if (track.albumSpotify) {
+            try {
+              // Extract album ID from Spotify URL
+              const albumIdMatch = track.albumSpotify.match(/album\/([a-zA-Z0-9]+)/);
+              if (albumIdMatch) {
+                const albumId = albumIdMatch[1];
+                console.log(`  -> Searching in album: ${track.albumName} (${albumId})`);
+                
+                // Get tracks from the specific album
+                const albumTracksRes = await fetch(`https://api.spotify.com/v1/albums/${albumId}/tracks`, {
+                  headers: { Authorization: `Bearer ${accessToken}` }
+                });
+                
+                if (albumTracksRes.ok) {
+                  const albumTracksData = await albumTracksRes.json();
+                  
+                  // Find the specific track in the album
+                  const matchingTrack = albumTracksData.items.find(albumTrack => {
+                    const trackNameMatch = albumTrack.name.toLowerCase().includes(track.name.toLowerCase()) ||
+                                          track.name.toLowerCase().includes(albumTrack.name.toLowerCase());
+                    return trackNameMatch;
+                  });
+                  
+                  if (matchingTrack) {
+                    console.log(`  ✅ Found in album: ${matchingTrack.name} - ${matchingTrack.uri}`);
+                    return matchingTrack.uri;
+                  } else {
+                    console.log(`  ⚠️ Track not found in album, trying general search...`);
+                  }
+                } else {
+                  console.log(`  ⚠️ Album not accessible, trying general search...`);
+                }
+              }
+            } catch (albumError) {
+              console.log(`  ⚠️ Album search failed, trying general search...`, albumError);
+            }
+          }
+          
+          // Fallback: General search with album name included for better accuracy
+          const searchQuery = `track:"${track.name}" artist:"${track.albumArtist}" album:"${track.albumName}"`;
+          const searchUrl = `https://api.spotify.com/v1/search?q=${encodeURIComponent(searchQuery)}&type=track&limit=5`;
+          
+          console.log(`  -> General search: ${searchQuery}`);
+          
+          const searchRes = await fetch(searchUrl, {
+            headers: { Authorization: `Bearer ${accessToken}` }
+          });
+          
+          if (!searchRes.ok) {
+            console.warn(`  ❌ Search failed for: ${track.name}`);
+            return null;
+          }
+          
+          const searchData = await searchRes.json();
+          
+          if (searchData.tracks && searchData.tracks.items.length > 0) {
+            // Prefer tracks from the correct album if available
+            let foundTrack = searchData.tracks.items.find(item => 
+              item.album.name.toLowerCase().includes(track.albumName.toLowerCase()) ||
+              track.albumName.toLowerCase().includes(item.album.name.toLowerCase())
+            );
+            
+            // If no album match, take the first result
+            if (!foundTrack) {
+              foundTrack = searchData.tracks.items[0];
+            }
+            
+            console.log(`  ✅ Found via search: ${foundTrack.name} by ${foundTrack.artists[0].name} from ${foundTrack.album.name} - ${foundTrack.uri}`);
+            return foundTrack.uri;
+          } else {
+            console.warn(`  ❌ No results found for: ${track.name} by ${track.albumArtist}`);
+            return null;
+          }
+        } catch (error) {
+          console.error(`  ❌ Error processing track: ${track.name}`, error);
+          return null;
+        }
+      });
+
+      // Wait for all searches to complete
+      const searchResults = await Promise.all(searchPromises);
+      const validTrackUris = searchResults.filter(uri => uri !== null);
+      
+      console.log(`Found ${validTrackUris.length} out of ${playlist.length} tracks`);
+      
+      if (validTrackUris.length === 0) {
+        throw new Error('No tracks could be found on Spotify. Please try again.');
+      }
+
+      // 3. Create playlist
       const createRes = await fetch(`https://api.spotify.com/v1/users/${userData.id}/playlists`, {
         method: 'POST',
         headers: {
@@ -181,26 +306,45 @@ export default function CuratedPlaylist({ selectedGenres, selectedMoods, onBack 
         },
         body: JSON.stringify({
           name: playlistName,
-          description: "Curated by Medha's Soundscape",
+          description: "Curated by Medha, for you :)",
           public: false
         })
       });
+      
+      if (!createRes.ok) {
+        throw new Error('Failed to create playlist');
+      }
+      
       const playlistData = await createRes.json();
+      console.log('Playlist created:', playlistData.name);
 
-      // 3. Add tracks
-      await fetch(`https://api.spotify.com/v1/playlists/${playlistData.id}/tracks`, {
-        method: 'POST',
-        headers: {
-          Authorization: `Bearer ${accessToken}`,
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ uris: trackUris })
-      });
+      // 4. Add tracks to playlist
+      if (validTrackUris.length > 0) {
+        const addTracksRes = await fetch(`https://api.spotify.com/v1/playlists/${playlistData.id}/tracks`, {
+          method: 'POST',
+          headers: {
+            Authorization: `Bearer ${accessToken}`,
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ uris: validTrackUris })
+        });
+        
+        if (!addTracksRes.ok) {
+          throw new Error('Failed to add tracks to playlist');
+        }
+        
+        console.log(`Added ${validTrackUris.length} tracks to playlist`);
+      }
 
-      alert('Playlist created on your Spotify!');
+      // Success!
+      alert(`Playlist created successfully with ${validTrackUris.length} tracks!`);
       window.open(playlistData.external_urls.spotify, '_blank');
+      
     } catch (err) {
+      console.error('Playlist creation error:', err);
       alert('Failed to create playlist: ' + err.message);
+    } finally {
+      setIsCreatingPlaylist(false);
     }
   };
 
@@ -251,11 +395,21 @@ export default function CuratedPlaylist({ selectedGenres, selectedMoods, onBack 
           <div className="flex justify-center mt-10">
             {isAuthenticated ? (
               <button
-                className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-full text-lg font-semibold shadow vinyl-shadow flex items-center gap-3 transition-all duration-200"
+                className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-full text-lg font-semibold shadow vinyl-shadow flex items-center gap-3 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
                 onClick={handleCreateSpotifyPlaylist}
+                disabled={isCreatingPlaylist}
               >
-                <i className="fa-brands fa-spotify text-2xl"></i>
-                Create this playlist on Spotify
+                {isCreatingPlaylist ? (
+                  <>
+                    <i className="fa-solid fa-spinner fa-spin text-2xl"></i>
+                    Creating playlist...
+                  </>
+                ) : (
+                  <>
+                    <i className="fa-brands fa-spotify text-2xl"></i>
+                    Create this playlist on Spotify
+                  </>
+                )}
               </button>
             ) : (
               <button

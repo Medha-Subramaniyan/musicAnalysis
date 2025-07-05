@@ -45,8 +45,7 @@ dist/
 build/
 
 # Ignore environment files
-.env
-.env.*
+
 
 # Ignore OS and editor files
 .DS_Store
