@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import path from 'path'
 
 export default defineConfig({
-  base: '/spotify-analytics/',
+  base: '/',
   plugins: [react()],
   resolve: {
     alias: {
@@ -16,7 +16,7 @@ export default defineConfig({
     },
   },
   server: {
-    port: 8888,
+    port: 3000,
     host: '127.0.0.1',
     open: true,
     historyApiFallback: true,

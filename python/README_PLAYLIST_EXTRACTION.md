@@ -8,7 +8,7 @@ This directory contains scripts to extract album data from specific Spotify play
    ```
    SPOTIFY_CLIENT_ID=your_client_id_here
    SPOTIFY_CLIENT_SECRET=your_client_secret_here
-   SPOTIFY_REDIRECT_URI=http://127.0.0.1:8888/callback
+   SPOTIFY_REDIRECT_URI=http://127.0.0.1:3000/callback
    ```
 
 2. **Python Dependencies**: Install required packages:

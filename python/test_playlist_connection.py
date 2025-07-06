@@ -36,7 +36,7 @@ def test_spotify_connection():
         sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
             client_id=client_id,
             client_secret=client_secret,
-            redirect_uri='http://127.0.0.1:8888/callback',
+            redirect_uri='http://127.0.0.1:3000/callback',
             scope='playlist-read-private playlist-read-collaborative'
         ))
         
@@ -65,7 +65,7 @@ def test_playlist_access():
         sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
             client_id=os.getenv('SPOTIFY_CLIENT_ID'),
             client_secret=os.getenv('SPOTIFY_CLIENT_SECRET'),
-            redirect_uri='http://127.0.0.1:8888/callback',
+            redirect_uri='http://127.0.0.1:3000/callback',
             scope='playlist-read-private playlist-read-collaborative'
         ))
         
@@ -102,7 +102,7 @@ def test_user_playlists():
         sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
             client_id=os.getenv('SPOTIFY_CLIENT_ID'),
             client_secret=os.getenv('SPOTIFY_CLIENT_SECRET'),
-            redirect_uri='http://127.0.0.1:8888/callback',
+            redirect_uri='http://127.0.0.1:3000/callback',
             scope='playlist-read-private playlist-read-collaborative'
         ))
         

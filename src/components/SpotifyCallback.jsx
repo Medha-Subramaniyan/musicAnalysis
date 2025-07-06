@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const CLIENT_ID = '2431fa0ab44c44c9bd519c9178055f5d';
-const REDIRECT_URI = 'http://127.0.0.1:8888/spotify-analytics/callback';
+const CLIENT_SECRET = '3448c198ba8f4d8ba84c3fe6564aee6c';
+const REDIRECT_URI = 'http://127.0.0.1:3000/callback';
 
 export default function SpotifyCallback() {
   const navigate = useNavigate();

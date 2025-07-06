@@ -20,7 +20,7 @@ function App() {
   };
 
   return (
-    <Router basename="/spotify-analytics">
+    <Router>
       <Routes>
         <Route path="/callback" element={<SpotifyCallback />} />
         <Route path="/" element={

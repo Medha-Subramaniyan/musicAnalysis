@@ -21,7 +21,7 @@ class SpotifyDataExtractor:
         # Spotify API credentials - you'll need to set these up
         self.client_id = os.getenv('SPOTIFY_CLIENT_ID')
         self.client_secret = os.getenv('SPOTIFY_CLIENT_SECRET')
-        self.redirect_uri = os.getenv('SPOTIFY_REDIRECT_URI', 'http://127.0.0.1:8888/callback')
+        self.redirect_uri = os.getenv('SPOTIFY_REDIRECT_URI', 'http://127.0.0.1:3000/callback')
         
         # Initialize Spotify client
         self.sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
